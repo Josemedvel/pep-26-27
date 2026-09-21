@@ -41,7 +41,21 @@ print(mod)
 
 num_s = 8541
 horas = 8541 // 3600
-print(horas)
+minutos = (num_s - (horas * 3600)) // 60
+segundos = num_s - horas * 3600 - minutos * 60
+print(horas, minutos, segundos)
+
+a = "hola"
+b = 4
+c = True
+print(a, b, c)
+print(a + " " + str(b) + " " + str(c))
+print(f"{a} {b} {c}")
+
+# reloj impreso con formato
+print("%02.f : %02.f : %02.f" % (float(horas), float(minutos), float(segundos)))
+
+#print(True == (len("True") < 10))
 
 
 
