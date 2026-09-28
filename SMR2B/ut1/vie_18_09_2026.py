@@ -11,11 +11,28 @@ print("z" in "casa")
 print("_" * 45)
 
 # condicional if
-edad = 15
+edad = 18
 if edad >= 18:
     print("eres mayor de edad")
+elif edad >= 16:
+    print("tienes permiso para salir")
 else:
     print("eres menor de edad")
-    
+
+dia_semana = "Martes"
+
+match dia_semana:
+    case "Lunes" | "Martes" | "Miércoles" | "Jueves" | "Viernes":
+        print("Laborable")
+    case _:
+        print("Festivo")
+
+
+jugada = "piedra"
+jugada_maquina = "papel"
+
+
+        
+
 
 
