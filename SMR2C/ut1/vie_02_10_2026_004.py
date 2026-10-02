@@ -1,0 +1,2 @@
+import vie_02_10_2026_001 as libreria
+help(libreria.Campeon)
