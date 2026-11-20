@@ -1,0 +1,5 @@
+int_1 = int(input("Ingrese un valor entero:"))
+print(int_1, type(int_1))
+int_2 = int(input("Ingrese un valor entero:"))
+print(int_2, type(int_2))
+print(int_1 + int_2)
