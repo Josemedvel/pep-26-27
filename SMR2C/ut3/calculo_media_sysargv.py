@@ -27,6 +27,6 @@ for nota in parametros[1:]:
         print("El valor de una nota debe estar entre 0 y 10")
         os._exit(3)
 
-print(f"La media de las notas es: {notas_acc / n}")
+print(f"La media de las notas es: {(notas_acc / n):.3f}")
     
     
